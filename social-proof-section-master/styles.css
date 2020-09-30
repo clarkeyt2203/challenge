@@ -1,0 +1,77 @@
+body {
+  font-family: "Spartan", sans-serif;
+  text-align: center;
+  color: hsl(300, 43%, 22%);
+  background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+  background-position: top left, 20em 10em;
+  background-repeat: no-repeat;
+}
+.first-star {
+  margin-left: 1.5rem;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.rate1,
+.rate2,
+.rate3 {
+  background-color: hsl(300, 24%, 96%);
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.rate1 p {
+  display: inline-block;
+  padding-left: 30px;
+}
+.rate2 p {
+  display: inline-block;
+  padding-left: 30px;
+}
+.rate3 p {
+  display: inline-block;
+  padding-left: 30px;
+}
+.rate {
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.top {
+  padding: 5% 10%;
+}
+.bottom {
+  padding: 2%;
+}
+.main-title {
+  width: 400px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.main {
+  text-align: left;
+  width: 500px;
+}
